@@ -11,10 +11,10 @@ user-friendly console-based hotel room reservation system that allows efficient
 management of bookings, user profiles, and room details using file storage.
 
 
-Functional Requirements:
+## Functional Requirements:
 
 
-Hotel Model:
+### Hotel Model:
 
 Define
 various room types such as Deluxe, Suite, Single, Double in a textual
@@ -23,8 +23,7 @@ Each room
 type should have attributes like amenities, maximum occupancy, etc.,
 defined in the file.
 
-Room
-Management:
+### Room Management:
 
 Create a
 file /optional/ for room instances: e.g., Deluxe Room 101, Suite 201.
@@ -43,7 +42,7 @@ Status
 (e.g., available, booked)
 
 
-User Interactions:
+### User Interactions:
 
 On
 startup, provide a text menu with options like "1. View Rooms",
@@ -57,7 +56,7 @@ booking history.
 Allow
 users to register, log in, and view their profile. (list)
 
-Booking:
+### Booking:
 
 Ask the
 user for desired dates and room type.
@@ -67,7 +66,7 @@ On
 booking, update the room's status in the file and store the booking
 details.
 
-Cancellation:
+### Cancellation:
 
 Request
 the reservation ID.
@@ -98,11 +97,10 @@ remove rooms or modify room details.
  
 
 
-Non-functional Requirements:
+## Non-functional Requirements:
 
 
-Data
-Persistence:
+### Data Persistence:
 
 Use file
 operations to read and write data.
@@ -117,7 +115,7 @@ Ensure
 input validation for all user inputs to prevent errors and ensure system
 stability.
 
-Scalability:
+### Scalability:
 
 Design the
 file structure and code in a modular way to easily add more room types or
